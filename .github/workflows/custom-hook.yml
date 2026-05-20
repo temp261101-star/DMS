@@ -2,7 +2,10 @@ name: Custom Hook
 
 on:
   push:
-    
+    paths:
+      - '**/*.xml'
+      - '**/*.json'
+      - '**/*.sql'
 
 jobs:
   notify-backend:
@@ -11,6 +14,7 @@ jobs:
     steps:
       - name: Send Full GitHub Payload to Backend
         run: |
+          echo '${{ toJson(github.event) }}' > payload.json
           curl -X POST http://182.48.194.218:8181/auth/github/actionPayload \
-          -H "Content-Type: application/json" \
-          -d '${{ toJson(github.event) }}'
+            -H "Content-Type: application/json" \
+            --data @payload.json
