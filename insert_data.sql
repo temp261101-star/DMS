@@ -8,6 +8,7 @@ INSERT INTO customers (first_name, last_name, email, phone) VALUES
 ('Carol',   'White',   'carol@example.com',  '+91-9876543212'),
 ('David',   'Brown',   'david@example.com',  '+91-9876543213'),
 ('Eve',     'Davis',   'eve@example.com',    '+91-9876543214');
+('Mansi',     'Hajare',   'mansi@example.com',    '+91-9876543214');
 
 INSERT INTO products (name, description, price, stock, category) VALUES
 ('Laptop Pro 15',    '15-inch laptop, 16GB RAM, 512GB SSD', 999.99, 50,  'Electronics'),
