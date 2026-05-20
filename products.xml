@@ -6,6 +6,7 @@
     <price currency="USD">79.99</price>
     <stock>150</stock>
     <rating>4.5</rating>
+    <rating>6.5</rating>
   </product>
   <product sku="P002">
     <name>Running Shoes</name>
