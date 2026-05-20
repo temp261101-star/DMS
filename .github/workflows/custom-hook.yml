@@ -2,8 +2,7 @@ name: Custom Hook
 
 on:
   push:
-    paths:
-      -'products.xml'
+    
 
 jobs:
   notify-backend:
