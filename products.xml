@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <product sku="P001">
+    <name>Wireless Headphones</name>
+    <category>Electronics</category>
+    <price currency="USD">79.99</price>
+    <stock>150</stock>
+    <rating>4.5</rating>
+  </product>
+  <product sku="P002">
+    <name>Running Shoes</name>
+    <category>Footwear</category>
+    <price currency="USD">59.99</price>
+    <stock>200</stock>
+    <rating>4.3</rating>
+  </product>
+  <product sku="P003">
+    <name>Coffee Maker</name>
+    <category>Appliances</category>
+    <price currency="USD">49.99</price>
+    <stock>75</stock>
+    <rating>4.7</rating>
+  </product>
+</catalog>

@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "age": 28,
+      "role": "admin",
+      "created_at": "2023-01-10"
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "age": 34,
+      "role": "editor",
+      "created_at": "2023-03-22"
+    },
+    {
+      "id": 3,
+      "name": "Carol White",
+      "email": "carol@example.com",
+      "age": 25,
+      "role": "viewer",
+      "created_at": "2023-06-15"
+    }
+  ],
+  "total": 3
+}
