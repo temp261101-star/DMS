@@ -20,7 +20,6 @@ CREATE TABLE products (
 CREATE TABLE orders (
     order_id      INT PRIMARY KEY AUTO_INCREMENT,
     customer_id   INT NOT NULL,
-    total_amount  DECIMAL(10,2) NOT NULL,
     status        ENUM('Pending','Processing','Shipped','Delivered','Cancelled') DEFAULT 'Pending',
     order_date    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
