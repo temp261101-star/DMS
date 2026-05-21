@@ -21,7 +21,6 @@ CREATE TABLE orders (
     order_id      INT PRIMARY KEY AUTO_INCREMENT,
     customer_id   INT NOT NULL,
     status        ENUM('Pending','Processing','Shipped','Delivered','Cancelled') DEFAULT 'Pending',
-    order_date    TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (customer_id) REFERENCES customers(customer_id)
 );
 
