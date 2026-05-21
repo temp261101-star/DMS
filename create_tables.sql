@@ -6,7 +6,6 @@ USE ecommerce;
 CREATE TABLE customers (
     customer_id   INT PRIMARY KEY AUTO_INCREMENT,
     name     VARCHAR(50)  NOT NULL,
-    email         VARCHAR(100) NOT NULL UNIQUE,
     created_at    TIMESTAMP    DEFAULT CURRENT_TIMESTAMP
 );
 
