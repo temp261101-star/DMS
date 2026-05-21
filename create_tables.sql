@@ -3,5 +3,6 @@ CREATE TABLE employee (
     first_name    VARCHAR(50) NOT NULL,
     last_name     VARCHAR(50) NOT NULL,
     email         VARCHAR(100) UNIQUE,
+    phone_number  VARCHAR(15),
     joining_date  DATE
 );
